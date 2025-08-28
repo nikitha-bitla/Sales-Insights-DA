@@ -194,7 +194,8 @@ Shows visualizations from Sales insights :
 
 | Key Insights | Profit Analysis |
 |-------------|-------------|
-| <img width="400" alt="Screenshot 2025-08-28 172529" src="https://github.com/user-attachments/assets/d7d90a6b-23be-47a3-b5bc-ab547d19deaa" /> | <img width="400" alt="Screenshot 2025-08-28 172600" src="https://github.com/user-attachments/assets/410af12c-47af-4d69-b22b-8e4b231cd859" /> |
+| <img width="400" alt="Screenshot 2025-08-28 182809" src="https://github.com/user-attachments/assets/1855dc8e-6ae2-4828-b6d5-95f1c808775f" />
+ | <img width="400" alt="Screenshot 2025-08-28 172600" src="https://github.com/user-attachments/assets/410af12c-47af-4d69-b22b-8e4b231cd859" /> |
 
 | Performance Insights | Revenue and Sales Insights |
 |-------------|-------------|
