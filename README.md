@@ -23,9 +23,9 @@ Completed the Data discovery and then used mySQL for data analysis.
 SQL database dump is in db_dump.sql file above. Download db_dump.sql file to your local computer
 
  - Importing Data to MySQL workbench
-<img width="1920" height="1014" alt="image" src="https://github.com/user-attachments/assets/f2aac803-8aeb-40f0-922d-2009bddb71a6" />
+<img width="1500" height="900" alt="image" src="https://github.com/user-attachments/assets/f2aac803-8aeb-40f0-922d-2009bddb71a6" />
 
-<img width="1920" height="1019" alt="image" src="https://github.com/user-attachments/assets/4093d49d-b6c7-4239-8fb1-515654c2cff6" />
+<img width="1500" height="900" alt="image" src="https://github.com/user-attachments/assets/4093d49d-b6c7-4239-8fb1-515654c2cff6" />
 
 The import of data is done from an already existing MySQL file. This file has to be loaded into MySQL workbench for further data analysis.
 
@@ -120,7 +120,7 @@ Step 2: Loading data into the Power BI deskstop. This step load all the tables a
 
 In that model view looking up for model which form the star schema.
 
-<img width="1143" height="720" alt="image" src="https://github.com/user-attachments/assets/4be5f472-5561-458e-b30b-0bc04cde79dc" />
+<img width="1500" height="900" alt="image" src="https://github.com/user-attachments/assets/4be5f472-5561-458e-b30b-0bc04cde79dc" />
 
 
 Setp 3: Transform data with the help of Power Query
@@ -156,7 +156,7 @@ And then dataset was cleaned and transformed, it was ready to the data modeled.
 
 The sales insights data tables as show below:
 
-<img width="1532" height="801" alt="image" src="https://github.com/user-attachments/assets/00111c44-a7b0-4e11-81ba-c82c89596daa" />
+<img width="1500" height="900" alt="image" src="https://github.com/user-attachments/assets/00111c44-a7b0-4e11-81ba-c82c89596daa" />
 
 
 ## Data Analysis (DAX):
@@ -201,6 +201,9 @@ Shows visualizations from Sales insights :
 
 ## Tools, Software and Libraries :
   1.MySQL
+  
   2.Microsoft Power BI
+  
   3.Power Query Editor
+  
   4.DAX Language
