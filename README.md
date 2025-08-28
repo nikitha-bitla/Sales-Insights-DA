@@ -134,7 +134,7 @@ Convert USD into INR in the transaction’s table: the AtliQ Hardware only works
 
 In power query editor finding the total values having USD as currency.
 
- `=Table.AddColumn(#"Filtered Rows", "norm_sales_amount",each if [currency] = "USD" then [sales_amount]*75 else [sales_amount]`
+ `=Table.AddColumn(#"Filtered Rows", "norm_sales_amount",each if [currency] = "USD" then [sales_amount]*87 else [sales_amount]`
 using this correct formula of the conversion,and converted the USD currency into INR.
 
 In MySQL Workbench find that there are duplicates of USD and INR
@@ -173,9 +173,9 @@ Revenue = `SUM('sales transactions'[sales_amount])`
 
 Revenue Contribution % = `DIVIDE([Revenue],CALCULATE([Revenue],ALL('sales products'),ALL('sales customers'),ALL('sales markets')))`
 
-Revenue LY = `CALCULATE([Revenue],SAMEPERIODLASTYEAR('sales date'[date]))`
+Revenue LastYear = `CALCULATE([Revenue],SAMEPERIODLASTYEAR('sales date'[date]))`
 
-sales quntity = `SUM('sales transactions'[sales_qty])`
+Sales Qty = `SUM('sales transactions'[sales_qty])`
 
 Total Profit Margin = `SUM('Sales transactions'[Profit_Margin])`
 
@@ -185,7 +185,7 @@ Profit Target1 = `GENERATESERIES(-0.05, 0.15, 0.01)`
 
 Profit Target Value = `SELECTEDVALUE('Profit Target1'[Profit Target])`
 
-Target Diff = `[Profit Margin %]-'Profit Target1'[Profit Target Value]`
+Target Difference = `[Profit Margin %]-'Profit Target1'[Profit Target Value]`
 
 ## Build Dashboard Or a Report:
 Data visualization for the data analysis (DAX) was done in Microsoft Power BI Desktop:
