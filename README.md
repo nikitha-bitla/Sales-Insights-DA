@@ -1,7 +1,6 @@
 # Sales Insights Analysis Dashboard
 
 ## Overview
----
 This project focuses on building a **Power BI Sales Insights Dashboard** that empowers business stakeholders with data-driven decision-making.  
 
 The dashboard helps the **Sales Director** and management team to:
@@ -10,7 +9,6 @@ The dashboard helps the **Sales Director** and management team to:
 - Analyze **revenue trends** and growth opportunities  
 
 ### Project Highlights
----
 - Worked with a **large dataset** containing sales transactions, customer details, product data, and market information.  
 - Imported raw data from **MySQL into Power BI** for analysis.  
 - Performed **ETL (Extract, Transform, Load)** operations including data cleaning, transformation, handling invalid values, duplicate entries, negative amounts, and currency conversions.
@@ -20,7 +18,6 @@ The dashboard helps the **Sales Director** and management team to:
   - KPIs for strategic business insights  
 
 ## Data Analysis using MySQL :
----
 Completed the Data discovery and then used mySQL for data analysis.
 
 SQL database dump is in db_dump.sql file above. Download db_dump.sql file to your local computer
@@ -115,7 +112,6 @@ The import of data is done from an already existing MySQL file. This file has to
 Similarly, if we want different of any other particular city the market code of that city is used on the mysql workbench.
 
 ## Data Cleaning and ETL (Extract, Transform, Load):
---- 
 In this process, we are work on data cleaning and ETL.
 
 Step 1: Connect the MySQL database with the PowerBI desktop.
@@ -156,7 +152,6 @@ In MySQL Workbench find that there are duplicates of USD and INR
 we can see that it is duplicate and for analysis its better to delete anyone of them so lets delete USD and keep USD/r. finally we will keep data with INR/r and USD/r
 
 ## Data Modeling:
----
 And then dataset was cleaned and transformed, it was ready to the data modeled.
 
 The sales insights data tables as show below:
@@ -165,7 +160,6 @@ The sales insights data tables as show below:
 
 
 ## Data Analysis (DAX):
----
 Measures used in all visualization are:
 
 Key Measures:
@@ -185,19 +179,18 @@ Profit Target Value = `SELECTEDVALUE('Profit Target1'[Profit Target])`
 Target Diff = `[Profit Margin %]-'Profit Target1'[Profit Target Value]`
 
 ## Build Dashboard Or a Report:
----
 Data visualization for the data analysis (DAX) was done in Microsoft Power BI Desktop:
 
 Shows visualizations from Sales insights :
 
 | Key Insights | Profit Analysis |
 |-------------|-------------|
-| <img width="400" alt="Screenshot 2025-08-28 172529" src="https://github.com/user-attachments/assets/d7d90a6b-23be-47a3-b5bc-ab547d19deaa" /> | <img width="1297" height="722" alt="Screenshot 2025-08-28 172600" src="https://github.com/user-attachments/assets/410af12c-47af-4d69-b22b-8e4b231cd859" /> |
+| <img width="400" alt="Screenshot 2025-08-28 172529" src="https://github.com/user-attachments/assets/d7d90a6b-23be-47a3-b5bc-ab547d19deaa" /> | <img width="400" alt="Screenshot 2025-08-28 172600" src="https://github.com/user-attachments/assets/410af12c-47af-4d69-b22b-8e4b231cd859" /> |
 
 | Performance Insights | Revenue and Sales Insights |
 |-------------|-------------|
-| <img width="1293" height="724" alt="Screenshot 2025-08-28 172622" src="https://github.com/user-attachments/assets/eb7ef5c7-4265-4876-b8c1-48689cb3c12b" />
- | <img width="1294" height="715" alt="Screenshot 2025-08-28 172655" src="https://github.com/user-attachments/assets/43840e18-a8cc-45db-b76f-9d52088ebe30" />
+| <img width="400" alt="Screenshot 2025-08-28 172622" src="https://github.com/user-attachments/assets/eb7ef5c7-4265-4876-b8c1-48689cb3c12b" />
+ | <img width="400" alt="Screenshot 2025-08-28 172655" src="https://github.com/user-attachments/assets/43840e18-a8cc-45db-b76f-9d52088ebe30" />
  |
 
 ## Tools, Software and Libraries :
