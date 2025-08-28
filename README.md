@@ -25,6 +25,7 @@ SQL database dump is in db_dump.sql file above. Download db_dump.sql file to you
  - Importing Data to MySQL workbench
 <img width="1000" height="700" alt="image" src="https://github.com/user-attachments/assets/f2aac803-8aeb-40f0-922d-2009bddb71a6" />
 
+
 <img width="1000" height="700" alt="image" src="https://github.com/user-attachments/assets/4093d49d-b6c7-4239-8fb1-515654c2cff6" />
 
 The import of data is done from an already existing MySQL file. This file has to be loaded into MySQL workbench for further data analysis.
